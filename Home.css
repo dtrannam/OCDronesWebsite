@@ -64,3 +64,17 @@ body {
     text-align: center;
     color: white;
 }
+
+#map, .offers {
+    color: #FB8500;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+#camera {
+    transition: transform .2s ease-in-out;
+}
+
+#camera:hover {
+    transform: translate(90%);
+}

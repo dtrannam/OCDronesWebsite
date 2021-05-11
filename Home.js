@@ -15,3 +15,13 @@ quoteBtn.addEventListener('click', () => {
     let newNumber = Math.floor(Math.random() * 8)
     document.querySelector('#quotes').innerText = quotes[newNumber]
 })
+
+
+// External Alerts
+
+navAlerts = document.querySelector('#alerts')
+navAlerts.addEventListener('click', (e) => {
+    move = alert('Note that clicking on this link will take you to an external page')
+    })
+
+// price card hover
