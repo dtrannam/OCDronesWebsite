@@ -21,9 +21,10 @@ quoteBtn.addEventListener('click', () => {
 
 navAlerts = document.querySelector('#alerts')
 navAlerts.addEventListener('click', (e) => {
-    if (window.confirm('Really go to another page?')) {
+    var txt;
+    if (confirm("This will take you to an external site - please confirm")) {
         console.log('test')
     } else {
         console.log('no')
     }
-// price card hover
+// price card 
