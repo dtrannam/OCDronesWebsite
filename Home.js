@@ -21,7 +21,9 @@ quoteBtn.addEventListener('click', () => {
 
 navAlerts = document.querySelector('#alerts')
 navAlerts.addEventListener('click', (e) => {
-    move = alert('Note that clicking on this link will take you to an external page')
-    })
-
+    if (window.confirm('Really go to another page?')) {
+        console.log('test')
+    } else {
+        console.log('no')
+    }
 // price card hover
