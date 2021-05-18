@@ -22,9 +22,11 @@ quoteBtn.addEventListener('click', () => {
 navAlerts = document.querySelector('#alerts')
 navAlerts.addEventListener('click', (e) => {
     var txt;
-    if (confirm("This will take you to an external site - please confirm")) {
-        console.log('test')
+    if (confirm("This will open a new window - press okay to open our Yelp page")) {
+        window.open('https://www.yelp.com/search?find_desc=Drone&find_loc=Orange+County%2C+CA&ns=1')
     } else {
         console.log('no')
     }
-// price card 
+})
+
+// Price Card

@@ -1,5 +1,5 @@
 
-/* Menu Bar*/
+/* Menu Bar https://coolors.co/8ecae6-219ebc-023047-ffb703-fb8500*/
 #menu {
     width: 75%;
     margin-left: 10%;
@@ -37,7 +37,6 @@ body {
 .homeBody {
     padding-top: 50px;
     text-align: center;
-    color: #FB8500;
 }
 
 .homeBody > *  {
@@ -48,14 +47,14 @@ body {
 
 #reviews {
     margin-left: 25%;
-    color: #FB8500;
+
     
 }
 
 #picHeader {
     margin: auto;
     width: 50%;
-    color: #FB8500;
+
     padding: 20px;
 }
 
@@ -65,8 +64,11 @@ body {
     color: white;
 }
 
-#map, .offers {
+body {
     color: #FB8500;
+}
+#map, .offers {
+
     margin-left: 25%;
     margin-right: 25%;
 }
@@ -77,4 +79,39 @@ body {
 
 #camera:hover {
     transform: translate(90%);
+}
+
+.Terms {
+    margin-left: 25%;
+}
+
+#scrollbox {
+    width: 900px;
+    height: 300px;
+    overflow: auto;
+}
+
+.pricecard {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10%;
+
+}
+
+.pricecard div {
+    border: 1px #219ebc solid;
+    background-color: rgb(242, 230, 223);
+    width: 20%;
+}
+
+.pricecard * {
+    list-style-type: none;
+    margin: 1px;
+    padding: 0;
+}
+
+.pricing, .jumbotron  {
+    margin: auto;
+    width: 50%;
+    margin-top: 10%;
 }
