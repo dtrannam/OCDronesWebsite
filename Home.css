@@ -113,5 +113,16 @@ body {
 .pricing, .jumbotron  {
     margin: auto;
     width: 50%;
-    margin-top: 10%;
+    margin-top: 5%;
+}
+
+form {
+    margin-left: 25%;
+    margin-top: 5%;
+}
+
+iframe {
+    margin: auto;
+    display:block;
+    margin-top: 5%;
 }

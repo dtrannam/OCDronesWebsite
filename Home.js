@@ -28,5 +28,3 @@ navAlerts.addEventListener('click', (e) => {
         console.log('no')
     }
 })
-
-// Price Card
